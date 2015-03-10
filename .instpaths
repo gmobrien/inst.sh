@@ -1,0 +1,3 @@
+# file		destination			mode	user	group
+inst.sh		/home/gabriel/bin		0755	gabriel	gabriel
+
