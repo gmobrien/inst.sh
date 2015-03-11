@@ -31,5 +31,5 @@ while read -r src dest mode userid groupid junk; do
   # strip out lines that are whitespace or comments
   echo $src | egrep -v '^[[:space:]]*(#)?$' || continue
   sudo install -v -C -D -m $mode -o $userid -g $groupid $src $dest
-done < .instpaths
+done < .installmanifest
 
