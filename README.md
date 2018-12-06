@@ -1,2 +1,3 @@
 # inst.sh
-a simple script to install files stored in a repository
+
+This project is now maintained on GitLab: https://gitlab.com/gmobrien/inst.sh
